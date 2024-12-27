@@ -71,3 +71,13 @@ $(document).ready(function(){
         }
     });
 });
+
+function sendEmail(){
+    let params = {
+        name: document.getElementById('name').ariaValueMax,
+        subject: document.getElementById('subject').value,
+        email : document.getElementById('email').value,
+        message : document.getElementById('message').value
+    };
+    emailjs.send("service_g6czz0e","template_biumw6f",params).then(alert("Email sent successfully"))
+}
