@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("images/bannerImage.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -192,10 +192,6 @@ section .title::after{
     font-size: 40px;
     margin: 5px 0;
 }
-.home .home-content .text-3 span{
-    color: crimson;
-    font-weight: 500;
-}
 .home .home-content a{
     display: inline-block;
     background: crimson;
@@ -213,6 +209,16 @@ section .title::after{
     background: none;
 }
 
+.progress-text{
+    color: rgb(238, 210, 2);
+    transition: all 0.3s ease;
+    text-shadow:  
+        -2px -2px 0 black,  
+         2px -2px 0 black, 
+        -2px  2px 0 black, 
+         2px  2px 0 black, 
+        0px  0px 2px black; 
+}
 /* about section styling */
 .about .title::after{
     content: "who i am";
@@ -257,6 +263,10 @@ section .title::after{
     background: none;
 }
 
+.about p {
+    text-indent: 20px; /* Adjust the value to your preference */
+    margin-bottom: 1em; /* Optional: Adds space between paragraphs */
+}
 /* services section styling */
 .services, .teams{
     color:#fff;
@@ -377,6 +387,56 @@ section .title::after{
 .skills-content .right .mysql::before{
     width: 70%;
 }
+.skills .column.left img {
+    max-width: 400px;
+} 
+
+.skills p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Optional, if you want to center the text inside the paragraph */
+    font-size: 18px;    /* Adjust the font size if needed */
+    margin-top: 20px;   /* Optional, add some margin for spacing */
+}
+
+.skills .skills-content .right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;  /* Add space between items */
+}
+
+.skills .skills-content .right .tech-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    transition: all 0.3s ease;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills .skills-content .right .tech-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.skills .skills-content .right .tech-item i {
+    font-size: 40px;
+    color: #ff6f61;  /* Color for icons */
+    margin-bottom: 10px;
+}
+
+.skills .skills-content .right .tech-item span {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+}
 
 /* teams section styling */
 .teams .title::after{
@@ -442,6 +502,15 @@ section .title::after{
 }
 
 /* contact section styling */
+.contact p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Optional, if you want to center the text inside the paragraph */
+    font-size: 18px;    /* Adjust the font size if needed */
+    margin-top: 20px;   /* Optional, add some margin for spacing */
+}
+
 .contact .title::after{
     content: "get in touch";
 }
