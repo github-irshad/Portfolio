@@ -428,7 +428,7 @@ section .title::after{
 
 .skills .skills-content .right .tech-item i {
     font-size: 40px;
-    color: #ff6f61;  /* Color for icons */
+    color: crimson;  /* Color for icons */
     margin-bottom: 10px;
 }
 
