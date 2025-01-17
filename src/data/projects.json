@@ -1,0 +1,40 @@
+{
+    "mockProjects" : [
+        {
+          "id": 1,
+          "title": "Sign Up Screen",
+          "image": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "A responsive portfolio website built with React.js.",
+          "techStacks": ["React.js", "CSS"],
+          "liveDemo": "https://github-irshad.github.io/SignupScreen/",
+          "github": "https://github.com/github-irshad/SignupScreen"
+        },
+        {
+            "id": 2,
+            "title": "Portfolio Website2",
+            "image": "https://images.pexels.com/photos/16027822/pexels-photo-16027822/free-photo-of-chat-gpt-page-on-screen.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "description": "A responsive portfolio website built with React.js.",
+            "techStacks": ["React.js", "CSS"],
+            "liveDemo": "#",
+            "github": "#"
+          },
+          {
+            "id": 2,
+            "title": "Portfolio Website2",
+            "image": "https://images.pexels.com/photos/16027822/pexels-photo-16027822/free-photo-of-chat-gpt-page-on-screen.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "description": "A responsive portfolio website built with React.js.",
+            "techStacks": ["React.js", "CSS"],
+            "liveDemo": "#",
+            "github": "#"
+          },
+          {
+            "id": 2,
+            "title": "Portfolio Website2",
+            "image": "https://images.pexels.com/photos/16027822/pexels-photo-16027822/free-photo-of-chat-gpt-page-on-screen.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "description": "A responsive portfolio website built with React.js.",
+            "techStacks": ["React.js", "CSS"],
+            "liveDemo": "#",
+            "github": "#"
+          }
+      ]
+}
